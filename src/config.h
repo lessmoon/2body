@@ -97,8 +97,8 @@ public:
                       int*        zoom,
                       int*        internal_per_time)
     {
-        this ->CenterStar   = CenterStar;
-        this ->Planets      = Planets;
+        this ->CenterStar        = CenterStar;
+        this ->Planets           = Planets;
         this ->internal_per_time = internal_per_time;
         this ->zoom              = zoom;
         this -> read();
@@ -257,7 +257,7 @@ private:
             if ( look -> tag == lexer::tag::NUM ){
                 value = static_cast<lexer::num*>(look) -> value;
             } else if ( look -> tag == lexer::tag::REAL ) {
-                value = static_cast<lexer::num*>(look) -> value;
+                value = static_cast<lexer::real*>(look) -> value;
             } else {
                 this -> error(16);
             }
