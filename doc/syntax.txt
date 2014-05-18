@@ -1,0 +1,12 @@
+ivalue -> interge
+fvalue -> double
+rgb -> <ivalue,ivalue,ivalue>
+3dvector --> <fvalue ,fvalue ,fvalue >
+config -> mass = fvalue | v = 3dvector | color = rgb | radius = fvalue
+configlist = config | configlist config,
+config2 -> mass = fvalue | v = 3dvector | color = rgb | radius = fvalue  | pos = 3dvector
+set zoom = ivalue
+set speed = fvalue
+set center = <configlist>
+add planet = <config2>
+statemtent = set zoom = ivalue|set speed = fvalue|set center = <configlist>|add planet = <config2>
