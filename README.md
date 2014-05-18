@@ -1,6 +1,7 @@
 #模拟天体系统#
 ---------------
 作者：陈少鹏（Lessmoon）、杨金智（Wiskey）<br />
+项目地址：[https://github.com/lessmoon/2body](https://github.com/lessmoon/2body) <br />
 基于OpenGL与MFC的一个简易天体模拟系统
 
 
