@@ -30,7 +30,7 @@ public:
 	virtual ~CChildView();
 private:
     //int day;
-    int zoom;
+    double zoom;
     int internal_per_timer;
     _3DVector x_scale;
     _3DVector y_scale;

@@ -1,0 +1,10 @@
+set zoom = 1E10
+set speed = 2000
+set center = < mass = 2.0E30 , color = <125,225,128> >
+
+add planet = <	color = <0,0,255>,
+		radius = 0.5,
+		velocity = <0,3.0E4,0>,
+		mass = 0,
+		pos = <1.5E11,0,0>
+	       >
