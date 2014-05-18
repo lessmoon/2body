@@ -1,0 +1,40 @@
+set zoom = 16000000 //设置距离比例
+set speed = 2500	//设置时间比例
+
+
+/*中心天体属性*/
+set center = < mass =5.975E24, color = <100,0,0> , radius = 1>
+
+
+/*添加3个样例行星*/
+/*添加一个正圆轨迹行星*/
+add planet = <	color = <0,0,255>,
+		radius = 0.5,
+		velocity = <0,1000,0>,
+		mass = 0,
+		pos = <363104000,0,0>
+	       >
+
+/*椭圆轨迹行星*/
+add planet = <	color = <0, 255, 0>,
+		radius = 0.5,
+		velocity = <0,1500,0>,
+		mass = 0,
+		pos = <203104000,0,0>
+	       >
+		   
+/*大曲率椭圆轨迹行星*/		  
+add planet = <	color = <255, 255, 0>,
+		radius = 0.5,
+		velocity = <0,800,0>,
+		mass = 0,
+		pos = <200104000,200104000,0>
+	       >
+		   
+
+add planet = <	color = <255, 67, 33>,
+		radius = 0.5,
+		velocity = <0,1500,0>,
+		mass = 0,
+		pos = <150104000,100104000,0>
+	       >
